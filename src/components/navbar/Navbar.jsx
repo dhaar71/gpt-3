@@ -7,6 +7,7 @@ const Menu = ({ showMobileMenu }) => (
     <p className="ml-4 mr-4"> <a href="#home">Home</a></p>
     <p className="ml-4 mr-4"> <a href="#whatGPT3">What is GPT?</a></p>
     <p className="ml-4 mr-4"> <a href="#possibility">Open AI</a></p>
+    <p className="ml-4 mr-4"> <a href="#features">Case Study</a></p>
     <p className="ml-4 mr-4"> <a href="#blog">Library</a></p>
 
     {showMobileMenu && (
@@ -42,7 +43,7 @@ const Navbar = () => {
             : <RiMenu3Line color="#fff" size={27} onClick={handleMenuToggle} />
           }
           {toggleMenu && (
-            <div className="bg-blue-900">
+            <div className="bg-blue-900 bg-blur ">
               <Menu showMobileMenu={true} />
             </div>
           )}

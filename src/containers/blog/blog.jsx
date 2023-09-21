@@ -13,35 +13,35 @@ const Blog = () => {
             <div className="grid grid-cols-3 gap-4 text-white mt-5 ">
                 <div className="row-span-2  ">
                     <img src={blog1} alt="ai" className="" />
-                    <div className="h-[439px] p-5 font-manrope md:font-semibold md:text-lg font-medium text-sm bg-indigo-950">
+                    <div className="md:h-[439px] h-[300px] p-5 font-manrope md:font-semibold md:text-lg font-medium text-xs bg-indigo-950">
                         GPT-3 and Open  AI is the future. Let us exlore how it is?
                     </div>
                 </div>
 
                 <div className="col-span-1 ">
                     <img src={blog2} alt="ai" className="" />
-                    <div className="bg-indigo-950 h-[193px] p-5 font-manrope md:font-semibold md:text-lg font-medium text-sm ">
+                    <div className="bg-indigo-950 md:h-[193px] h-[120px] p-5 font-manrope md:font-semibold md:text-lg font-medium text-xs ">
                         GPT-3 and Open  AI is the future. Let us exlore how it is?
                     </div>
                 </div>
 
                 <div className="col-span-1  ">
                     <img src={blog3} alt="ai" className="" />
-                    <div className="bg-indigo-950  h-[193px] p-5 font-manrope md:font-semibold md:text-lg font-medium text-sm ">
+                    <div className="bg-indigo-950  md:h-[193px] h-[120px] p-5 font-manrope md:font-semibold md:text-lg font-medium text-xs ">
                         GPT-3 and Open  AI is the future. Let us exlore how it is?
                     </div>
                 </div>
 
                 <div className="col-span-1  ">
                     <img src={blog4} alt="ai" className="" />
-                    <div className="bg-indigo-950  h-[193px] p-5 font-manrope md:font-semibold md:text-lg font-medium text-sm ">
+                    <div className="bg-indigo-950  md:h-[193px] h-[120px] p-5 font-manrope md:font-semibold md:text-lg font-medium text-xs ">
                         GPT-3 and Open  AI is the future. Let us exlore how it is?
                     </div>
                 </div>
 
                 <div className="col-span-1  ">
                     <img src={blog5} alt="ai" className="" />
-                    <div className="bg-indigo-950  h-[193px] p-5 font-manrope md:font-semibold md:text-lg font-medium text-sm " >
+                    <div className="bg-indigo-950  md:h-[193px] h-[120px] p-5 font-manrope md:font-semibold md:text-lg font-medium text-xs " >
                         GPT-3 and Open  AI is the future. Let us exlore how it is?
                     </div>
 
